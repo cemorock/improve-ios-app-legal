@@ -1,10 +1,12 @@
-#Terms and Conditions — Improve: Budget, Habits & More
+# Terms and Conditions — Improve: Budget, Habits & More
 Version: 1.0 Effective date: 2026-08-11
 
 ## 1. Agreement
 These Terms are a legal agreement between you and Cedric Bauer, Switzerland ("I", "me", "the developer"), governing your use of the Improve: Budget, Habits & More iOS application ("the App").
+
 Apple's standard Licensed Application End User License Agreement also applies to the App. These Terms sit alongside it and add points specific to this App. Where the two conflict on any matter concerning Apple, Apple's agreement governs.
 You accept these Terms by tapping the acceptance control shown when you first open the App, and by continuing to use it. If you do not accept them, do not use the App and delete it.
+
 The App also records which version of these Terms you accepted. If a materially new version is published, you will be asked to accept it before continuing.
 The [Privacy Policy]([PRIVACY POLICY URL]) forms part of these Terms. Note that the Privacy Policy is provided as information, not as something you consent to — your privacy rights do not depend on accepting it.
 
@@ -13,12 +15,13 @@ You must be at least 13 years old, and old enough to form a binding contract whe
 
 ## 3. Licence
 Subject to these Terms, I grant you a personal, non-exclusive, non-transferable, revocable licence to install and use the App on Apple-branded devices that you own or control, in accordance with the Usage Rules in Apple's Media Services Terms and Conditions.
+
 This is a licence, not a sale. I retain all rights not expressly granted.
 You may not:
-	•	Copy, redistribute, sell, rent, or sublicense the App
-	•	Reverse-engineer, decompile, or disassemble it, except to the extent this cannot lawfully be prohibited (in particular, mandatory interoperability and error-correction rights under EU and Swiss copyright law remain unaffected)
-	•	Remove or obscure any copyright or attribution notices
-	•	Use the App to store or process unlawful content, or to break any law that applies to you
+* Copy, redistribute, sell, rent, or sublicense the App
+* Reverse-engineer, decompile, or disassemble it, except to the extent this cannot lawfully be prohibited (in particular, mandatory interoperability and error-correction rights under EU and Swiss copyright law remain unaffected)
+* Remove or obscure any copyright or attribution notices
+* Use the App to store or process unlawful content, or to break any law that applies to you
 Your content stays yours. Everything you enter — habits, expenses, budgets — belongs to you. I claim no ownership over it and, as described in the Privacy Policy, have no access to it.
 
 ## 4. What the App is, and what it is not
@@ -34,18 +37,18 @@ The App does not connect to your bank, does not read your transactions, and neve
 
 ## 5. Your data and your backups
 This is the most important practical clause in this document, so it is stated plainly:
-	•	Your data lives on your device and, unless you have turned iCloud off for the App in iOS Settings, in your own iCloud account. The App has no separate sync switch of its own.
-	•	I do not have a copy of your data and cannot recover it for you. Not if your device is lost, not if you delete the App, not if a sync goes wrong, not if iCloud has an outage.
-	•	Keeping backups is your responsibility. Use encrypted iOS/iCloud device backups, and keep iCloud sync enabled so that your data exists on more than one device.
-	•	Deleting the App removes local data. It does not remove data already synced to iCloud — see the Privacy Policy for how to delete that.
+* Your data lives on your device and, unless you have turned iCloud off for the App in iOS Settings, in your own iCloud account. The App has no separate sync switch of its own.
+* I do not have a copy of your data and cannot recover it for you. Not if your device is lost, not if you delete the App, not if a sync goes wrong, not if iCloud has an outage.
+* Keeping backups is your responsibility. Use encrypted iOS/iCloud device backups, and keep iCloud sync enabled so that your data exists on more than one device.
+* Deleting the App removes local data. It does not remove data already synced to iCloud — see the Privacy Policy for how to delete that.
 Software has bugs. Sync is harder than it looks. Please keep backups.
 
 ## 6. Availability, changes, and pre-release builds
-	•	The App is provided free of charge. There is no subscription, no in-app purchase, and no advertising. If that ever changes, existing installed features will not be taken away from you retroactively without notice.
-	•	I may add, change, or remove features, or stop maintaining or distributing the App entirely, at any time and without notice. I will make a reasonable effort to avoid changes that destroy existing data.
-	•	Features may depend on Apple services (iCloud, notifications, Shortcuts) or third-party services (exchange rates) that I do not control and cannot guarantee.
-	•	TestFlight builds are pre-release software. They are less tested than App Store releases, may contain serious defects, may lose data, and expire. Do not keep data in a TestFlight build that you cannot afford to lose.
-	•	There is no service level, no uptime commitment, and no guaranteed support.
+* The App is provided free of charge. There is no subscription, no in-app purchase, and no advertising. If that ever changes, existing installed features will not be taken away from you retroactively without notice.
+* I may add, change, or remove features, or stop maintaining or distributing the App entirely, at any time and without notice. I will make a reasonable effort to avoid changes that destroy existing data.
+* Features may depend on Apple services (iCloud, notifications, Shortcuts) or third-party services (exchange rates) that I do not control and cannot guarantee.
+* TestFlight builds are pre-release software. They are less tested than App Store releases, may contain serious defects, may lose data, and expire. Do not keep data in a TestFlight build that you cannot afford to lose.
+* There is no service level, no uptime commitment, and no guaranteed support.
 
 ## 7. Acceptable use
 Do not use the App to store content that is unlawful where you are, to attempt to interfere with or overload any service the App communicates with, or to circumvent any technical limitation of the App or of iOS.
@@ -62,11 +65,11 @@ This does not exclude warranties or rights that cannot lawfully be excluded, inc
 To the fullest extent permitted by applicable law, I am not liable for indirect, incidental, consequential, special, or punitive damages, nor for loss of data, loss of profits, loss of savings, or costs of substitute software, arising out of or in connection with the App.
 Because the App is supplied free of charge, my aggregate liability is limited to CHF 50 or the amount you paid for the App (whichever is greater).
 Nothing in these Terms limits or excludes liability for:
-	•	death or personal injury caused by negligence,
-	•	intent or gross negligence,
-	•	fraud or fraudulent misrepresentation,
-	•	liability under mandatory product-liability law,
-	•	or anything else that cannot lawfully be limited.
+* death or personal injury caused by negligence,
+* intent or gross negligence,
+* fraud or fraudulent misrepresentation,
+* liability under mandatory product-liability law,
+* or anything else that cannot lawfully be limited.
 If you are a consumer, your statutory rights are unaffected by this section.
 
 ## 11. Termination
