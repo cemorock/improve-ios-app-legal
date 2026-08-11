@@ -18,6 +18,7 @@ Subject to these Terms, I grant you a personal, non-exclusive, non-transferable,
 
 This is a licence, not a sale. I retain all rights not expressly granted.
 You may not:
+
 * Copy, redistribute, sell, rent, or sublicense the App
 * Reverse-engineer, decompile, or disassemble it, except to the extent this cannot lawfully be prohibited (in particular, mandatory interoperability and error-correction rights under EU and Swiss copyright law remain unaffected)
 * Remove or obscure any copyright or attribution notices
