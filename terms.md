@@ -8,7 +8,7 @@ Apple's standard Licensed Application End User License Agreement also applies to
 You accept these Terms by tapping the acceptance control shown when you first open the App, and by continuing to use it. If you do not accept them, do not use the App and delete it.
 
 The App also records which version of these Terms you accepted. If a materially new version is published, you will be asked to accept it before continuing.
-The [Privacy Policy]([https://cemorock.github.io/improve-ios-app-legal/privacy]) forms part of these Terms. Note that the Privacy Policy is provided as information, not as something you consent to — your privacy rights do not depend on accepting it.
+The [Privacy Policy](https://cemorock.github.io/improve-ios-app-legal/privacy) forms part of these Terms. Note that the Privacy Policy is provided as information, not as something you consent to — your privacy rights do not depend on accepting it.
 
 ## 2. Who may use the App
 You must be at least 13 years old, and old enough to form a binding contract where you live. If you are under the age of majority, use the App only with the involvement of a parent or guardian.
