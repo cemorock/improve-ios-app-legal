@@ -66,6 +66,7 @@ Note: this app does not offer an in-app switch for iCloud sync. Sync is handled 
 
 ## 6. What I actually receive
 To be explicit about the small amount of information that does reach me:
+
 | Source | What I get | When |
 |---|---|---|
 | App Store Connect | Aggregate, anonymised metrics: downloads, sessions, crashes, device/OS mix, country | Always, from Apple. No individual users identifiable. |

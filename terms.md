@@ -8,7 +8,7 @@ Apple's standard Licensed Application End User License Agreement also applies to
 You accept these Terms by tapping the acceptance control shown when you first open the App, and by continuing to use it. If you do not accept them, do not use the App and delete it.
 
 The App also records which version of these Terms you accepted. If a materially new version is published, you will be asked to accept it before continuing.
-The [Privacy Policy]([PRIVACY POLICY URL]) forms part of these Terms. Note that the Privacy Policy is provided as information, not as something you consent to — your privacy rights do not depend on accepting it.
+The [Privacy Policy]([https://cemorock.github.io/improve-ios-app-legal/privacy]) forms part of these Terms. Note that the Privacy Policy is provided as information, not as something you consent to — your privacy rights do not depend on accepting it.
 
 ## 2. Who may use the App
 You must be at least 13 years old, and old enough to form a binding contract where you live. If you are under the age of majority, use the App only with the involvement of a parent or guardian.
@@ -88,13 +88,21 @@ If you are a consumer resident in the EU/EEA, Switzerland, or the UK, this choic
 ## 14. Apple-specific terms
 These provisions apply because the App is distributed through the Apple App Store, and are required by Apple.
 	1	These Terms are between you and me only, not with Apple. I, not Apple, am solely responsible for the App and its content.
+
 	2	Apple has no obligation to furnish any maintenance or support services for the App.
+
 	3	If the App fails to conform to any applicable warranty, you may notify Apple, and Apple will refund the purchase price (if any). To the maximum extent permitted by law, Apple has no other warranty obligation whatsoever with respect to the App, and any other claims, losses, liabilities, damages, costs or expenses attributable to any failure to conform to any warranty are my responsibility.
+
 	4	I, not Apple, am responsible for addressing any claim by you or a third party relating to the App or your possession and use of it, including product liability claims, claims that the App fails to conform to any applicable legal or regulatory requirement, and claims arising under consumer protection or similar legislation.
+
 	5	I, not Apple, am solely responsible for the investigation, defence, settlement and discharge of any third-party claim that the App infringes that third party's intellectual property rights.
+
 	6	You represent that you are not located in a country subject to a U.S. Government embargo or designated as a "terrorist supporting" country, and that you are not listed on any U.S. Government list of prohibited or restricted parties.
+
 	7	You must comply with any applicable third-party terms when using the App.
+
 	8	Apple and its subsidiaries are third-party beneficiaries of these Terms and, upon your acceptance, have the right to enforce them against you.
+	
 	9	Contact for questions, complaints, or claims regarding the App: support@cedric-bauer.ch.
 
 ## 15. Miscellaneous
