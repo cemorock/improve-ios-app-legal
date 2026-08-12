@@ -1,5 +1,5 @@
 # Privacy Policy — Improve: Budget, Habits & More
-Version: 1.1 Effective date: 2026-08-12 Last updated: 2026-08-12
+Version: 1.2 Effective date: 2026-08-13 Last updated: 2026-08-13
 
 ##  1. The short version
 Improve: Budget, Habits & More is a free app made by one person. It has no servers, no user accounts, and no analytics or advertising SDKs.
@@ -31,7 +31,12 @@ All of the following is data you create. None of it is collected from you, purch
 * Expense amounts, currencies, dates, and free-text descriptions
 * Categories, projects, and per-category monthly budget limits
 * Recurring-expense rules and schedules
-* Optional: the approximate location where an expense was recorded, if you grant location access and enable location tagging. This is stored as coordinates on your device. Where a country is shown, it is worked out on your device from map boundary data bundled inside the App — coordinates are never sent to a geocoding or address-lookup service
+* Optional: the approximate location where an expense was recorded, if you
+  grant location access and enable location tagging. The App reads your location
+  only while it is open and you are creating or editing an expense. This is
+  stored as coordinates on your device. Where a country is shown, it is worked
+  out on your device from map boundary data bundled inside the App — coordinates
+  are never sent to a geocoding or address-lookup service
 * Your chosen base currency and the exchange rate applied at the time an expense was saved
 ### 4.3 Inactive features
 The App contains dormant code for a nutrition-tracking feature that is not reachable in this version. It has no interface, creates no records, requests no permissions, and neither reads from nor writes to Apple Health. It is mentioned here only for completeness.
@@ -98,20 +103,32 @@ Every one of these is optional. Denying any of them leaves the rest of the app f
 
 | Permission | Why | If you deny |
 |---|---|---|
-| Location (Always) | To tag an expense with the place it happened — including when an expense is logged automatically in the background, for example from a Shortcut, while the App is not open — and to show tagged expenses on a map | Expenses are saved without a location; the map shows only entries tagged previously |
+| Location (While Using the App) | To tag an expense with the place it happened, and to show tagged expenses on a map | Expenses are saved without a location; the map shows only entries tagged previously |
 | Photo Library | To let you choose a background image. A copy is stored in the app's own storage; the app does not scan, index, or upload your library | You keep the bundled backgrounds |
 | Notifications | Reminders and confirmations for habits and expense logging | No reminders |
 | Siri & Shortcuts | To run app actions from Shortcuts or Siri | Shortcuts integration is unavailable |
 | Face ID / Touch ID | To unlock the App, if you turn on app lock | App lock stays off, or you unlock with your device passcode |
 
 You can change any of these at any time in Settings → [APP NAME].
-### 8.1 What "Always" location access does and does not mean
-Because expenses can be logged automatically while the App is closed, the App asks for Always location access. iOS will occasionally remind you that the App has used your location in the background. To be clear about what is happening:
-* The App reads your location only at the moment an expense record is created. Nothing else triggers a location read.
-* It does not track your movements, does not monitor when you enter or leave places, and does not run continuously in the background.
-* It keeps no location history beyond the individual points attached to expenses you saved. There is no trail, no timeline, and no background log.
-* As stated in Section 7.3, those coordinates never leave your device for geocoding, and as stated in Section 5, they are stored only on your device and in your own iCloud account.
-If you would rather the App only had location access while it is open, choose While Using the App in Settings → [APP NAME] → Location. Everything keeps working; expenses you log by hand are still tagged, and expenses logged automatically in the background are simply saved without a location.
+### 8.1 About location access
+
+The App only requests location access **while you are using it**. It has no
+background location permission and cannot read your location when it is closed.
+
+* Your location is read only at the moment you create or edit an expense.
+  Nothing else triggers a location read.
+* The App does not track your movements, does not monitor when you enter or
+  leave places, and keeps no location history beyond the individual points
+  attached to expenses you saved.
+* If an expense is logged automatically in the background — for example by a
+  Shortcuts automation you set up — it is saved **without** a location. You can
+  add one later by opening the expense and editing it.
+* As stated in Section 7.3, coordinates never leave your device for geocoding,
+  and as stated in Section 5, they are stored only on your device and in your
+  own iCloud account.
+
+You can revoke location access at any time in Settings → [APP NAME] → Location.
+Everything else in the App keeps working.
 
 ### 8.2 App lock and biometrics
 
