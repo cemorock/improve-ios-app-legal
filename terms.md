@@ -1,5 +1,5 @@
 # Terms and Conditions — Improve: Budget, Habits & More
-Version: 1.0 Effective date: 2026-08-11
+Version: 1.1 Effective date: 2026-08-12
 
 ## 1. Agreement
 These Terms are a legal agreement between you and Cedric Bauer, Switzerland ("I", "me", "the developer"), governing your use of the Improve: Budget, Habits & More iOS application ("the App").
@@ -43,6 +43,7 @@ This is the most important practical clause in this document, so it is stated pl
 * Keeping backups is your responsibility. Use encrypted iOS/iCloud device backups, and keep iCloud sync enabled so that your data exists on more than one device.
 * Deleting the App removes local data. It does not remove data already synced to iCloud — see the Privacy Policy for how to delete that.
 Software has bugs. Sync is harder than it looks. Please keep backups.
+* The optional app lock requires Face ID, Touch ID, or your device passcode to open the App. It is a convenience feature, not a security guarantee: it does not encrypt your data, does not protect it from someone with access to your unlocked device, and does not hide widgets or notifications drawn by iOS outside the App. Do not rely on it as your only protection for sensitive information.
 
 ## 6. Availability, changes, and pre-release builds
 * The App is provided free of charge. There is no subscription, no in-app purchase, and no advertising. If that ever changes, existing installed features will not be taken away from you retroactively without notice.
@@ -102,7 +103,7 @@ These provisions apply because the App is distributed through the Apple App Stor
 	7	You must comply with any applicable third-party terms when using the App.
 
 	8	Apple and its subsidiaries are third-party beneficiaries of these Terms and, upon your acceptance, have the right to enforce them against you.
-	
+
 	9	Contact for questions, complaints, or claims regarding the App: support@cedric-bauer.ch.
 
 ## 15. Miscellaneous

@@ -1,5 +1,5 @@
 # Privacy Policy — Improve: Budget, Habits & More
-Version: 1.0 Effective date: 2026-08-11 Last updated: 2026-08-11
+Version: 1.1 Effective date: 2026-08-12 Last updated: 2026-08-12
 
 ##  1. The short version
 Improve: Budget, Habits & More is a free app made by one person. It has no servers, no user accounts, and no analytics or advertising SDKs.
@@ -39,11 +39,12 @@ The App contains dormant code for a nutrition-tracking feature that is not reach
 * Accent color, selected background image (a copy is stored inside the app's own storage), base currency
 * Onboarding completion state and the version number of the Terms you accepted
 * Notification and widget preferences
+* Whether app lock is enabled, and after how long the app re-locks. This is a single on/off setting. No biometric information is stored with it.
 ### 4.5 What the app does not handle
 The app does not ask for, and has no ability to obtain:
 * Your name, email address, phone number, or date of birth
 * Any bank, card, or payment credentials
-* Contacts, calendars, photos other than a background image you explicitly pick, microphone, or camera
+* Contacts, calendars, photos other than a background image you explicitly pick, microphone, or camera. The optional app lock uses Face ID or Touch ID, but this does not give the App access to the camera — see Section 8.2.
 * Health or fitness data from HealthKit
 * Advertising identifiers (IDFA), device fingerprints, or any cross-app or cross-site tracking
 
@@ -94,21 +95,15 @@ The app contains no third-party analytics SDK, crash reporter, advertising netwo
 
 ## 8. Permissions the app may request
 Every one of these is optional. Denying any of them leaves the rest of the app functional; the specific feature is simply unavailable.
-Permission
-Why
-If you deny
-Location (Always)
-To tag an expense with the place it happened — including when an expense is logged automatically in the background, for example from a Shortcut, while the App is not open — and to show tagged expenses on a map
-Expenses are saved without a location; the map shows only entries tagged previously
-Photo Library
-To let you choose a background image. A copy is stored in the app's own storage; the app does not scan, index, or upload your library
-You keep the bundled backgrounds
-Notifications
-Reminders and confirmations for habits and expense logging
-No reminders
-Siri & Shortcuts
-To run app actions from Shortcuts or Siri
-Shortcuts integration is unavailable
+
+| Permission | Why | If you deny |
+|---|---|---|
+| Location (Always) | To tag an expense with the place it happened — including when an expense is logged automatically in the background, for example from a Shortcut, while the App is not open — and to show tagged expenses on a map | Expenses are saved without a location; the map shows only entries tagged previously |
+| Photo Library | To let you choose a background image. A copy is stored in the app's own storage; the app does not scan, index, or upload your library | You keep the bundled backgrounds |
+| Notifications | Reminders and confirmations for habits and expense logging | No reminders |
+| Siri & Shortcuts | To run app actions from Shortcuts or Siri | Shortcuts integration is unavailable |
+| Face ID / Touch ID | To unlock the App, if you turn on app lock | App lock stays off, or you unlock with your device passcode |
+
 You can change any of these at any time in Settings → [APP NAME].
 ### 8.1 What "Always" location access does and does not mean
 Because expenses can be logged automatically while the App is closed, the App asks for Always location access. iOS will occasionally remind you that the App has used your location in the background. To be clear about what is happening:
@@ -118,12 +113,41 @@ Because expenses can be logged automatically while the App is closed, the App as
 * As stated in Section 7.3, those coordinates never leave your device for geocoding, and as stated in Section 5, they are stored only on your device and in your own iCloud account.
 If you would rather the App only had location access while it is open, choose While Using the App in Settings → [APP NAME] → Location. Everything keeps working; expenses you log by hand are still tagged, and expenses logged automatically in the background are simply saved without a location.
 
+### 8.2 App lock and biometrics
+
+You can optionally require Face ID, Touch ID, or your device passcode to open
+the App.
+
+This uses Apple's system authentication. The App asks iOS to verify that it is
+you, and iOS answers with nothing more than **yes or no**.
+
+- Your face or fingerprint data never leaves the Secure Enclave on your device.
+  It is not available to the App, is not stored by the App, and is not synced,
+  transmitted, or shared with anyone.
+- The App does not receive images, scans, templates, or any other biometric
+  information — only the success or failure result.
+- Turning app lock on or off changes nothing about how your data is stored or
+  synced. It is a lock on the door of the App, not a change to the data behind
+  it.
+- If biometric authentication is unavailable or fails, you can unlock the App
+  with your device passcode.
+
+**What app lock does not cover.** Home screen widgets and notifications from
+this App are drawn by iOS outside the App, and are not hidden by app lock. If
+you would rather they did not show figures, remove the widget or turn off
+notification previews in iOS Settings.
+
 ## 9. Legal bases for processing (GDPR Article 6)
 Because the app processes your data locally and in your own iCloud account rather than on my infrastructure, my role as controller is limited. Where the GDPR applies, the bases are:
 * Article 6(1)(b) — performance of a contract: processing your entries on your device is what the app is for and what you asked it to do.
 * Article 6(1)(a) — consent: optional permissions (location, photo library, notifications), and opt-in sharing of crash diagnostics. Withdrawable at any time in iOS Settings, with no effect on prior processing.
 * Article 6(1)(f) — legitimate interests: aggregate, non-identifying App Store metrics used to fix bugs and decide what to build. You can object using the contact address above.
 Under the Swiss Federal Act on Data Protection (FADP/nFADP), processing of personal data by a private person is permitted subject to the principles of lawfulness, good faith, proportionality, purpose limitation, accuracy and security, which this app is designed around.
+
+Biometric authentication does not create special category data processing under
+GDPR Article 9. Biometric information is processed solely by your device's
+operating system for the purpose of unlocking it; the App receives only a
+success or failure result and at no point processes biometric data itself.
 
 ## 10. How long data is kept
 * On your device: until you delete it in the app, or delete the app. Deleting the app removes its local database.
