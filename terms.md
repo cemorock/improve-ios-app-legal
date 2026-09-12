@@ -1,5 +1,5 @@
 # Terms and Conditions — Improve: Budget, Habits & More
-Version: 1.2 Effective date: 2026-08-13
+Version: 1.3 Effective date: 12.09.2026
 
 ## 1. Agreement
 These Terms are a legal agreement between you and Cedric Bauer, Switzerland ("I", "me", "the developer"), governing your use of the Improve: Budget, Habits & More iOS application ("the App").
@@ -23,7 +23,7 @@ You may not:
 * Reverse-engineer, decompile, or disassemble it, except to the extent this cannot lawfully be prohibited (in particular, mandatory interoperability and error-correction rights under EU and Swiss copyright law remain unaffected)
 * Remove or obscure any copyright or attribution notices
 * Use the App to store or process unlawful content, or to break any law that applies to you
-Your content stays yours. Everything you enter — habits, expenses, budgets — belongs to you. I claim no ownership over it and, as described in the Privacy Policy, have no access to it.
+Your content stays yours. Everything you enter — habits, expenses, budgets, workouts — belongs to you. I claim no ownership over it and, as described in the Privacy Policy, have no access to it.
 
 ## 4. What the App is, and what it is not
 The App is a personal tracking tool. It records what you type into it and shows you charts and summaries derived from that.
@@ -31,8 +31,14 @@ The App is a personal tracking tool. It records what you type into it and shows 
 The App is not a bank, broker, accountant, or financial adviser, and does not provide financial, investment, tax, or accounting advice. Budgets, categories, totals, and projections are arithmetic over data you entered. Do not rely on them for tax filings, official accounting, or any decision with legal or financial consequence without checking against your actual bank and card statements.
 ### 4.2 Exchange rates are indicative
 Currency conversion uses public reference rates published by the European Central Bank and republished by a third-party service. These are reference rates only. They are not the rate your bank, card issuer, or payment provider applied to any real transaction, they do not include spreads or fees, they may be a day old, and they may be unavailable if the service is down. Converted figures in the App are estimates.
-### 4.3 Not medical or health advice
-Habit and time-tracking features are for self-observation. They are not a medical device and do not diagnose, treat, or prevent anything. If you have health concerns, speak to a qualified professional.
+### 4.3 Not medical, health, or training advice
+The habit, time-tracking, and workout features are for self-observation. They are not a medical device and do not diagnose, treat, monitor, or prevent anything. The App does not know your medical history, injuries, or limitations, and nothing in it is a personalised training or health recommendation.
+
+Workout plans, suggested exercises, suggested next weights, estimated one-rep-max figures, and progress trends are arithmetic over the numbers you entered, using generic formulas. They are estimates, not coaching. Estimated one-rep-max values in particular are calculated from sets you actually performed and have never been tested — do not treat one as a weight you are known to be able to lift.
+
+**Training carries a risk of injury. You decide what you lift and how you train, and you do so at your own risk.** If you are new to exercise, returning from injury or illness, pregnant, or have any medical condition, speak to a doctor or a qualified professional before following anything the App suggests. Stop if something hurts.
+
+Distances, paces, durations, calories, and routes shown for imported workouts come from Apple Health and the device that recorded them. Their accuracy is a property of that device, not of this App.
 ### 4.4 No connection to your accounts
 The App does not connect to your bank, does not read your transactions, and never asks for banking credentials. Every entry is one you made yourself or via an automation you configured.
 
@@ -42,13 +48,15 @@ This is the most important practical clause in this document, so it is stated pl
 * I do not have a copy of your data and cannot recover it for you. Not if your device is lost, not if you delete the App, not if a sync goes wrong, not if iCloud has an outage.
 * Keeping backups is your responsibility. Use encrypted iOS/iCloud device backups, and keep iCloud sync enabled so that your data exists on more than one device.
 * Deleting the App removes local data. It does not remove data already synced to iCloud — see the Privacy Policy for how to delete that.
+* Workouts imported from Apple Health are stored **only on your device** and are not part of the App's iCloud sync, because Apple does not permit health data to be stored there. They are not lost when you change device: Apple Health has its own iCloud sync, on by default, and the App imports from it again. Note that the App imports a recent window by default rather than your whole history, so on a new device older workouts remain in Apple Health until you choose a longer import range in the App's settings. If you have switched Apple Health's iCloud sync off, the App cannot recover those workouts for you.
+* Deleting a workout inside the App does not delete it from Apple Health, and deleting the App does not delete anything from Apple Health.
 Software has bugs. Sync is harder than it looks. Please keep backups.
 * The optional app lock requires Face ID, Touch ID, or your device passcode to open the App. It is a convenience feature, not a security guarantee: it does not encrypt your data, does not protect it from someone with access to your unlocked device, and does not hide widgets or notifications drawn by iOS outside the App. Do not rely on it as your only protection for sensitive information.
 
 ## 6. Availability, changes, and pre-release builds
 * The App is provided free of charge. There is no subscription, no in-app purchase, and no advertising. If that ever changes, existing installed features will not be taken away from you retroactively without notice.
 * I may add, change, or remove features, or stop maintaining or distributing the App entirely, at any time and without notice. I will make a reasonable effort to avoid changes that destroy existing data.
-* Features may depend on Apple services (iCloud, notifications, Shortcuts) or third-party services (exchange rates) that I do not control and cannot guarantee.
+* Features may depend on Apple services (iCloud, Apple Health, MapKit, notifications, Shortcuts) or third-party services (exchange rates) that I do not control and cannot guarantee.
 * TestFlight builds are pre-release software. They are less tested than App Store releases, may contain serious defects, may lose data, and expire. Do not keep data in a TestFlight build that you cannot afford to lose.
 * There is no service level, no uptime commitment, and no guaranteed support.
 
@@ -111,4 +119,3 @@ If any provision of these Terms is held unenforceable, the remainder stays in ef
 
 ## 16. Contact
 Cedric Bauer Email: support@cedric-bauer.ch
-
