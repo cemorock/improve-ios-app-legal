@@ -1,5 +1,5 @@
 # Terms and Conditions — Improve: Budget, Habits & More
-Version: 1.3 Effective date: 12.09.2026
+Version: 1.4 Effective date: 05.10.2026
 
 ## 1. Agreement
 These Terms are a legal agreement between you and Cedric Bauer, Switzerland ("I", "me", "the developer"), governing your use of the Improve: Budget, Habits & More iOS application ("the App").

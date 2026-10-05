@@ -1,5 +1,5 @@
 # Privacy Policy — Improve: Budget, Habits & More
-Version: 1.3 Effective date: 12.09.2026 Last updated: 12.09.2026
+Version: 1.4 Effective date: 05.10.2026 Last updated: 05.10.2026
 
 ##  1. The short version
 Improve: Budget, Habits & More is a free app made by one person. It has no servers, no user accounts, and no analytics or advertising SDKs.
@@ -48,7 +48,7 @@ Workouts you log in the App:
 
 Workouts read from Apple Health, if you allow it (see Sections 5.4 and 8.3):
 * Workout type (for example run, swim, hike), start and end time, and duration
-* Distance, pace, energy burned, and average heart rate — the summary figures stored as part of the workout record itself
+* Distance, pace, duration, energy burned, elevation gained, and average heart rate — the summary figures stored as part of the workout record itself
 * GPS route data recorded with the workout, used to draw a map in the workout
   detail view
 
@@ -215,12 +215,16 @@ sessions you log here.
   sleep, weight, heart rate, reproductive health, mental-health entries, or
   medical records as categories, and has no ability to read them.
 * **Why you still see a heart rate.** A workout record carries its own summary
-  figures — distance, pace, calories, and average heart rate for that session.
-  The App reads those from the workout itself. It does **not** have access to
-  your heart rate as a data category, which means it cannot see your resting
-  heart rate, any reading taken outside a workout, or the beat-by-beat detail
-  within one. It sees the session average, and only for workouts you have
-  allowed it to import.
+  figures — distance, pace, calories, elevation, and average heart rate for that
+  session — and the App reads those from the workout itself. It does **not**
+  have access to your heart rate as a data category, which means it cannot see
+  your resting heart rate, any reading taken outside a workout, or the
+  beat-by-beat detail within one. It sees the session average, and only for
+  workouts you have allowed it to import.
+* **Nothing is read live.** The App reads workouts that have already been
+  recorded and saved. It does not follow a workout in progress, does not monitor
+  your heart rate, movement, or location as they happen, and has no Apple Watch
+  app.
 * **You choose how far back to import.** When you first turn the feature on, the
   App imports a recent window rather than your whole history, so that enabling it
   is quick. From the App's settings you can import further back — six months, one
